@@ -1,0 +1,45 @@
+.typesPadre {
+    overflow: hidden;
+    padding-bottom: 100%; 
+    background-image: url('../../components/img/city.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+  }
+  
+  
+  
+  .buttonTipos{
+    font-size: 16px;
+    padding: 4px 26px;
+    border-radius: 9999px;
+    color: black;
+    border: 3px solid #003060;
+    cursor: pointer;
+    background: lightblue;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  .buttonTipos:hover{
+    background: #003060;
+    color: white;
+  }
+  
+  .contenedoBotonTipos{
+      margin-top: 20px; 
+  }
+  
+  .tarjetaContainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  
+  }
+  
+  .contenedorDeButons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }

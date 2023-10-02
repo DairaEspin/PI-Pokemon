@@ -1,0 +1,48 @@
+.padreDeTodo{
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../components/img/pokedex-table.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.buttonOpciones{
+  font-size: 16px;
+  padding: 4px 26px;
+  border-radius: 9999px;
+  color: black;
+  border: 3px solid #003060;
+  cursor: pointer;
+  background: lightblue;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 20px;
+}
+
+.buttonOpciones:hover{
+  background: #003060;
+  color: white;
+}
+
+.padreDeBotones{
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedorSiguiente{
+display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.tarjetaContainer{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}

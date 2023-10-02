@@ -1,0 +1,79 @@
+ .landingHome {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../../components/img/pokemons4.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.buttonDetalle {
+  font-size: 50px;
+  padding: 18px 36px;
+  border-radius: 9999px;
+  color: black;
+  border: 3px solid #003060;
+  cursor: pointer;
+  background: lightblue;
+  margin-bottom: -200px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.buttonDetalle:hover{
+  background: #003060;
+  color: white;
+  position: relative;
+  top: 10px;
+  box-shadow: none;
+}
+
+
+.landingtitulo{
+    margin-top: 205px;
+    width: 800px;
+    margin-bottom: -250px;
+}
+
+.imagenesDeAbajo{
+    display: flex;
+    justify-content: space-between; 
+    width: 100%; 
+    margin-top: auto; 
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+
+
+

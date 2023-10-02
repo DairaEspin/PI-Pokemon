@@ -1,0 +1,26 @@
+.tarjetaContainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  
+  .botonDeSiguiente {
+     font-size: 20px;
+    padding: 5px 30px;
+    border-radius: 9999px;
+    color: black;
+    border: 3px solid #003060;
+    cursor: pointer;
+    background: lightblue;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  .botonDeSiguiente:hover{
+    background: #003060;
+    color: white;
+  }
+  
+  .contenedorTodo{
+    display: flex;
+  }
+  

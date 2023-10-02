@@ -2,7 +2,9 @@ require('dotenv').config();
 const { Sequelize } = require('sequelize');
 const fs = require('fs');
 const path = require('path');
-const { DB_USER, DB_PASSWORD, DB_HOST } = process.env;
+const { 
+   DB_USER, DB_PASSWORD, DB_HOST 
+} = process.env;
 
 const sequelize = new Sequelize(
    `postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/pokemon`,
@@ -11,6 +13,11 @@ const sequelize = new Sequelize(
       native: false, // lets Sequelize know we can use pg-native for ~30% more speed
    }
 );
+
+sequelize.authenticate()
+.then( () => console.log('Connection has been established successfully.'))
+.catch(err => {console.error('Unable to connect to the database:'); });
+
 const basename = path.basename(__filename);
 
 const modelDefiners = [];
